@@ -1,0 +1,129 @@
+#root{
+    width: 331vh;
+    display: flex;
+    /* min-height: 100vh; */
+    flex-direction: column;
+    /* overflow-wrap: initial;*/
+}
+.copyright{
+    color:white;
+    margin-top: -5px;
+}
+
+
+.material{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    background: url("./../../img/bg1.png");
+    
+    overflow-y: scroll;
+    
+
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    width:100%;
+    -webkit-background-size : cover;
+    -moz-background-size : cover;
+    -o-background-size : cover;
+    background-size : cover;
+
+}
+
+.material::-webkit-scrollbar{
+    display: none;
+} 
+
+.parallel{
+    color:white;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem;
+    height: 100vh;
+    margin-bottom: 5rem;
+}
+.material ul li{
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+#sub_navlist{
+    visibility:hidden;
+    margin:0;
+    padding:0;
+    height:0;
+}
+
+
+
+#navlist li:hover > #sub_navlist{
+    visibility:visible;
+    width:100%;
+    height:100%;
+    float:none;
+    top:0;
+    padding:0;
+    position:relative;
+}
+
+
+
+
+#navlist li:hover #sub_navlist li{
+    background-color:rgb(79, 187, 193);
+    padding:3px;
+    float:none;
+    position:relative;
+    width:100%;
+    display:inline-block;
+    height:auto;
+}
+
+#navlist li:hover #sub_navlist li:hover{
+    color:rgb(255, 234, 0);
+}
+
+#navlist li {
+    
+    background-color: white;
+    color:black;
+    padding: 10px;
+}
+
+#navlist li {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+#navlist{
+    width: 40vw;
+    margin-left:20px
+}
+
+.slybuss{
+    margin:1rem 20rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.all{
+    background-color: black;
+}
+#navlist li:hover #sub_navlist #book{
+    background-color: rgb(119, 0, 128);
+    color:white;
+    padding :5px;
+}
+
+#body_navbar
+{
+    
+        height: auto;
+        display: flex;
+        flex-direction: column;
+}
