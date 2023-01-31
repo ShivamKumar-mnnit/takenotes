@@ -9,14 +9,15 @@ function navbar() {
     return (
 
         <nav class="navbar" >
-            <a href='/'>
+            <a href='https://mickey-mi.github.io/pendown/'>
                 <div class="logo"><img className="logo" src={logo} alt="logo" /></div>
             </a>
             <ul class="nav-links">
 
                 <div class="menu">
 
-                    <li><a href='/'>
+                    <li>
+            <a href='https://mickey-mi.github.io/pendown/'>
                         Back to Home
                     </a></li>
 
